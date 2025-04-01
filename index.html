@@ -1,0 +1,1486 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Home  || ROBERTO JEWELRY COLLECTION</title>
+	
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="shortcut icon" type="image/x-icon" href="imgg/logo.png">
+
+	<!-- all css here -->
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="css/animate.min.css">
+	<!-- jquery-ui.min css -->
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<!-- meanmenu css -->
+	<link rel="stylesheet" href="css/meanmenu.min.css">
+	<!-- nivo slider css -->
+	<link rel="stylesheet" href="lib/css/nivo-slider.css" />
+	<!-- owl.carousel css -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<!-- Simple Lence css -->
+	<link rel="stylesheet" href="css/jquery.simpleLens.css">
+	<!-- font-awesome css -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- fontello css -->
+	<link rel="stylesheet" href="css/fontello.css">
+	<!-- latofonts css -->
+	<link rel="stylesheet" href="css/latofonts.css">
+	<!-- style css -->
+	<link rel="stylesheet" href="style.css">
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- modernizr js -->
+	<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+
+</head>
+
+<body>
+	<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div class="PAYMENTS PAYMENT_BX PBX1 hide">
+			<div class="paymentCard">
+				<br>
+				<p class="payment_success hide">
+					Thank you, 
+					<span style="color: teal;" id="nameOfClient">Client</span>
+					for choosing us. One of our Jewelers will reach out to 
+					you and discuss your needs. You can visit us at our main branch.
+					Appointment recommended.
+				</p>
+
+				<form>
+					<div class="form_group">
+						<span class="inputTitle">Name</span>
+						<input type="text" class="all_inputs inputName">
+					</div>
+
+					<div class="form_group">
+						<span class="inputTitle">Email</span>
+						<input type="text" class="all_inputs inputEmail">
+					</div>
+
+					<div class="form_group">
+						<span class="inputTitle">Contact #</span>
+						<input type="text" class="all_inputs inputContact">
+					</div>
+
+					<div class="form_group">
+						<span class="inputTitle">Message</span>
+						<textarea class="paymentCardMessage all_inputs"></textarea>
+					</div>
+
+					<div class="form_bottom">
+						<a class="payBtn" onclick="sendINFO();">Send</a>
+						<a class="payBtn" style="background-color:#717171;" onclick="closePAYMENT();">Cancel</a>
+						
+						<div style="text-align: center;" id="ldr_bx" class="hide">
+							<i class="fa fa-spinner fa-spin loader" style="font-size:24px"></i>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+	<!-- HEADER-AREA START -->
+	<header class="header-area">
+		<!-- Header-Top Start -->
+		<div class="header-top d-none d-md-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-3">
+						<div class="header-top-left">
+							<ul class="top-menu top-menu-left">
+								<li>
+									<a href=""><span><i class="pe-7s-clock"></i></span>Mon-fri: 9:00-19:00</a>
+								</li>
+							</ul>
+							<ul class="top-menu top-menu-left d-none d-lg-inline-block">
+								<li><a href="">English<span><i class="pe-7s-angle-down"></i></span></a>
+									<ul class="top-submenu">
+										<li><a href="">Language</a></li>
+										<li><a href="">English</a></li>
+										<li><a href="">Bangla</a></li>
+										<li><a href="">Arabic</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul class="top-menu top-menu-left d-none d-lg-inline-block">
+								<li><a href="">USD <span><i class="pe-7s-angle-down"></i></span></a>
+									<ul class="top-submenu">
+										<li><a href="">URO</a></li>
+										<li><a href="">USD</a></li>
+										<li><a href="">GBP</a></li>
+										<li><a href="">USD</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-7 col-md-9" style="visibility: hidden;">
+						<div class="header-top-right">
+							<!-- <ul class="top-menu">
+									<li> -->
+							<div class="header-search">
+								<form action="#">
+									<input class="top-search" type="text" placeholder="Search Here...">
+									<button type="submit"><i class="pe-7s-search"></i></button>
+								</form>
+							</div>
+							<!-- </li>
+								</ul> -->
+							<ul class="top-menu">
+								<li><a ><span><i class="pe-7s-user"></i></span>My Account</a></li>
+							</ul>
+							<ul class="top-menu">
+								<li><a ><span><i class="pe-7s-key"></i></span>login</a></li>
+							</ul>
+							<ul class="top-menu">
+								<li><a ><span><i class="pe-7s-lock"></i></span>Register</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Header-Top End -->
+		<!-- Header Start -->
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<!-- Logo Start -->
+					<div class="col-lg-2 col-md-6">
+						<div class="logo">
+							<a href="index.html"><img src="imgg/logo.png" alt="erina"></a>
+						</div>
+					</div>
+					<!-- Logo End -->
+					<!-- MainMenu Start -->
+					<div class="col-lg-7 d-none d-lg-block">
+						<div class="mainmenu">
+							<nav>
+								<ul>
+									<li><a href="index.html">Home</a>
+									</li>
+									<li><a href="#collections">Collections</a></li>
+									<li><a href="#collections">Earring</a>
+									</li>
+									<li><a href="#new_arrivals"> New Arrivals</a></li>
+									<li><a href="contact.html">Meet Roberto</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<!-- MainMenu End -->
+					<!-- Cart-Total Start -->
+					<div class="col-lg-3 col-md-6">
+						<div class="cart-total">
+							<ul>
+								<li>
+									<div class="mini-cart-content">
+										<div class="cart-img-details">
+											<div class="cart-img-photo">
+												<a href=""><img src="img/cart/1.jpg" alt="#"></a>
+											</div>
+											<div class="cart-img-content">
+												<h4><a href="">Men's Shirt</a></h4>
+												<span>$25.00</span>
+											</div>
+											<div class="pro-del">
+												<a href=""><i class="pe-7s-trash"></i></a>
+											</div>
+										</div>
+										<div class="clear"></div>
+										<div class="cart-img-details">
+											<div class="cart-img-photo">
+												<a href=""><img src="img/cart/1.jpg" alt="#"></a>
+											</div>
+											<div class="cart-img-content">
+												<h4><a href="">Men's Shirt</a></h4>
+												<span>$25.25</span>
+											</div>
+											<div class="pro-del">
+												<a href=""><i class="pe-7s-trash"></i></a>
+											</div>
+										</div>
+										<div class="cart-inner-bottom">
+											<p class="total">Total: 50.25</p>
+											<a href="" class="cart-button-top cart-left">View Cart</a>
+											<a href="" class="cart-button-top">Checkout</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Cart-Total End -->
+				</div>
+			</div>
+		</div>
+		<!-- Header END -->
+	</header>
+	<!-- HEADER-AREA END -->
+	<!-- MOBILE-MENU-AREA START -->
+	<div class="mobile-menu-area d-block d-lg-none">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="mobile-menu">
+						<nav id="dropdown">
+							<ul>
+								<li><a href="index.html">Home</a>
+								</li>
+								<li><a href="#collections">Collections</a></li>
+								<li><a href="#collections">Earring</a>
+								</li>
+								<li><a href="#new_arrivals"> New Arrivals</a></li>
+								<li><a href="contact.html">Meet Roberto</a>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- MOBILE-MENU-AREA END -->
+	<!-- SLIDER-AREA START -->
+	<section class="slider-area">
+		<div class="bend niceties preview-2">
+			<div id="ensign-nivoslider" class="slides">
+				<img src="imgg/pic1.jpg" alt="" title="#slider-direction-1" />
+				<img src="imgg/pic2.jpg" alt="" title="#slider-direction-2" />
+				<img src="imgg/pic3.jpg" alt="" title="#slider-direction-3" />
+			</div>
+			<!-- direction 1 -->
+			<div id="slider-direction-1" class="slider-direction">
+				<div class="slider-progress"></div>
+				<div class="slider-content t-lft s-tb slider-1">
+					<div class="title-container s-tb-c title-compress">
+						
+					</div>
+				</div>
+			</div>
+			<!-- direction 2 -->
+			<div id="slider-direction-2" class="slider-direction">
+				<div class="slider-progress"></div>
+				<div class="slider-content t-lfl s-tb slider-2">
+					<div class="title-container s-tb-c">
+						
+					</div>
+				</div>
+			</div>
+			<!-- direction 3 -->
+			<div id="slider-direction-3" class="slider-direction">
+				<div class="slider-progress"></div>
+				<div class="slider-content t-lfl s-tb slider-2">
+					<div class="title-container s-tb-c">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SLIDER-AREA END -->
+	<section class="content">
+
+		<!-- FASHION-COLLECTION-AREA START -->
+		<div class="fashion-collection-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="fashion-collection">
+							<div class="fashion-photo">
+								<img src="imgg/pic4.jpg" alt="#">
+							</div>
+							<div class="fashion-details">
+								<h2>
+									<span class="color-black">Rober</span>to <br>
+									<span class="color-black">Jewelry</span> 
+								</h2>
+								<p style="background-color: rgba(255, 255, 255, 0.829); padding: 4px; border-radius: 3px;">
+									From sophisticated studs to everyday
+									hoops, choose from a multitude of styles,
+									metals, gemstones and more.
+								</p>
+								<a href="#collection">View <span> collection</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FASHION-COLLECTION-AREA END -->
+
+		<!-- FEATURED-PRODUCTS-AREA START -->
+		<div class="featured-products-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="area-title title-top-border">
+							<h2>Earrings</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="active-product-carousel navigation-top">
+						<!-- Single-Product Start -->
+						<div class="product-item">
+							<div class="single-product">
+								<div class="product-img">
+									<div class="label-new">
+										<span class="new" style="background-color: red;">Sold</span>
+									</div>
+									<div class="label-parcent" id="collections">
+									</div>
+									<a class="pro-image"  onclick="showPAYMENT();">
+										<img class="primary-image" src="imgg/VVS.jpg" alt="#">
+										<img class="secondary-image" src="imgg/VVS.jpg" alt="#">
+									</a>
+								</div>
+								<div class="product-content">
+									<h2 class="product-name">
+										<a href="">
+											Custom made 3D Face CZ/VVS
+										</a>
+									</h2>
+									<div class="pro-rating">
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star-half-o"></i></a>
+										<a href=""><i class="fa fa-star-o"></i></a>
+									</div>
+									<div class="price-box">
+									</div>
+								</div>
+							</div>
+							<div class="single-product">
+								<div class="product-img">
+									<div class="label-new">
+										<span class="new">New</span>
+									</div>
+									<a class="pro-image"  onclick="showPAYMENT();">
+										<img class="primary-image" src="imgg/art_deco_vintage_inspired_bow_earrings_with_citrine_and_diamonds.jpg" alt="#">
+										<img class="secondary-image" src="imgg/art_deco_vintage_inspired_bow_earrings_with_citrine_and_diamonds-second.jpg.jpg" alt="#">
+									</a>
+								</div>
+								<div class="product-content">
+									<h2 class="product-name">
+										<a href="">Art Deco Vintage Inspired Bow Earrings with Citrine and Diamonds</a>
+									</h2>
+									<div class="price-box">
+										<span class="new-price">$1,250.00</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Single-Product End -->
+						<!-- Single-Product Start -->
+						<div class="product-item">
+							<div class="single-product">
+								<div class="product-img">
+									<div class="label-parcent">
+										<span class="parcent">Sale</span>
+									</div>
+									<a class="pro-image"  onclick="showPAYMENT();">
+										<img class="primary-image" src="imgg/18kt-gold-ros-cut-diamond-stud-earrings.jpg" alt="#">
+										<img class="secondary-image" src="imgg/18kt-gold-ros-cut-diamond-stud-earrings-second.jpg" alt="#">
+									</a>
+								</div>
+								<div class="product-content">
+									<h2 class="product-name">
+										<a href="">18kt Gold & Rose Cut Diamond Stud Earrings</a>
+									</h2>
+									<div class="pro-rating">
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star-half-o"></i></a>
+										<a href=""><i class="fa fa-star-o"></i></a>
+									</div>
+									<div class="price-box">
+										<span class="new-price">$1,900.00</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="single-product">
+								<div class="product-img">
+									<div class="label-parcent">
+										<span class="parcent">Sale</span>
+									</div>
+									<a class="pro-image"  onclick="showPAYMENT();">
+										<img class="primary-image" src="imgg/white-ct-colombian-emerald-ct-diamonds-18k.jpg" Drop Earrings.jpg" alt="#">
+										<img class="secondary-image" src="imgg/white-ct-colombian-emerald-ct-diamonds-18k-second.jpg" alt="#">
+									</a>
+								</div>
+								<div class="product-content">
+									<h2 class="product-name">
+										<a href="">White 6.89 Ct Colombian Emerald & 1.79 Ct Diamonds 18k 1.9" Drop Earrings</a>
+									</h2>
+									<div class="pro-rating">
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star-half-o"></i></a>
+										<a href=""><i class="fa fa-star-o"></i></a>
+									</div>
+									<div class="price-box">
+										<span class="new-price">$1,900.00</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Single-Product Start -->
+						<div class="product-item">
+							<div class="single-product">
+								<div class="product-img">
+									<div class="label-new">
+										<span class="new">New</span>
+									</div>
+									<a class="pro-image"  onclick="showPAYMENT();">
+										<img class="primary-image" src="imgg/18k-yellow-gold-carved-jade-clip-on-earrings.jpg" alt="#">
+										<img class="secondary-image" src="imgg/18k-yellow-gold-carved-jade-clip-on-earrings-second.jpg" alt="#">
+									</a>
+								</div>
+								<div class="product-content">
+									<h2 class="product-name">
+										<a href="">18k Yellow Gold Carved Jade Clip-on Earrings</a>
+									</h2>
+									<div class="price-box">
+										<span class="new-price">$1,500.00</span>
+									</div>
+								</div>
+							</div>
+							<div class="single-product">
+								<div class="product-img">
+									<div class="label-new">
+										<span class="new">New</span>
+									</div>
+									<a class="pro-image"  onclick="showPAYMENT();">
+										<img class="primary-image" src="imgg/diamond-ruby-and-enamel-stud-earrings.jpg" alt="#">
+										<img class="secondary-image" src="imgg/diamond-ruby-and-enamel-stud-earrings-second.jpg" alt="#">
+									</a>
+								</div>
+								<div class="product-content">
+									<h2 class="product-name">
+										<a href="">Diamond, Ruby and Enamel Stud Earrings</a>
+									</h2>
+									<div class="price-box">
+										<span class="new-price">$1,500.00</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Single-Product End -->
+						<!-- Single-Product Start -->
+						<div class="product-item">
+							<div class="single-product">
+								<div class="product-img">
+									<div class="label-parcent">
+										<span class="parcent">sale</span>
+									</div>
+									<a class="pro-image"  onclick="showPAYMENT();">
+										<img class="primary-image" src="imgg/15th-century-technique-22kt-classic-gold-hoop-earrings.jpg" alt="#">
+										<img class="secondary-image" src="imgg/15th-century-technique-22kt-classic-gold-hoop-earrings-second.jpg" alt="#">
+									</a>
+								</div>
+								<div class="product-content">
+									<h2 class="product-name">
+										<a href="">15th Century Technique, 22kt Classic Gold Hoop Earrings</a>
+									</h2>
+									<div class="price-box">
+										<span class="new-price">$1,450.00</span>
+									</div>
+								</div>
+							</div>
+							<div class="single-product">
+								<div class="product-img">
+									<div class="label-parcent">
+										<span class="parcent">Sale</span>
+									</div>
+									<a class="pro-image"  onclick="showPAYMENT();">
+										<img class="primary-image" src="imgg/white-gold-ct-diamonds-in-18k-drop-earrings.jpg" alt="#">
+										<img class="secondary-image" src="imgg/white-gold-ct-diamonds-in-18k-drop-earrings-second.jpg" alt="#">
+									</a>
+								</div>
+								<div class="product-content">
+									<h2 class="product-name">
+										<a href=""> White Gold 5.10 Ct Diamonds In 18k Drop Earrings </a>
+									</h2>
+									<div class="pro-rating">
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star"></i></a>
+										<a href=""><i class="fa fa-star-half-o"></i></a>
+										<a href=""><i class="fa fa-star-o"></i></a>
+									</div>
+									<div class="price-box">
+										<span class="new-price">$11,550.00</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Single-Product End -->
+						<!-- Single-Product Start -->
+						<div class="product-item">
+							<div class="single-product">
+								<div class="product-img">
+									<div class="label-parcent">
+										<span class="parcent">Sale</span>
+									</div>
+									<a class="pro-image"  onclick="showPAYMENT();">
+										<img class="primary-image" src="imgg/art-deco-vintage-inspired-bow-earrings-with-blue-topaz-and-diamonds.jpg" alt="#">
+										<img class="secondary-image" src="imgg/art-deco-vintage-inspired-bow-earrings-with-blue-topaz-and-diamonds-second.jpg" alt="#">
+									</a>
+								</div>
+								<div class="product-content">
+									<h2 class="product-name">
+										<a href="">Art Deco Vintage Inspired Bow Earrings with Citrine and Diamonds</a>
+									</h2>
+									<div class="price-box">
+										<span class="new-price">$1,250.00</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Single-Product End -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FEATURED-PRODUCTS-AREA END -->
+
+		<!-- PRODUCT-BANNER-AREA START -->
+		<br><br>
+		<hr>
+		<div class="product-banner-area" style="display: none;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="product-banner">
+							<a class="banner-photo" href=""><img src="img/banner/1.jpg" alt="#" /></a>
+							<div class="banner-brief">
+								<h2>belt for mens</h2>
+								<a href="" class="shop-now">Shop Now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<div class="product-banner banner-2">
+							<a class="banner-photo" href=""><img src="img/banner/2.jpg" alt="#" /></a>
+							<div class="banner-brief">
+								<h2>Dresses For Women</h2>
+								<p>Winter Collection</p>
+								<a href="" class="shop-now">Shop Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- PRODUCT-BANNER-AREA END -->
+
+		<!-- NEW-ARRIVAL-AREA START -->
+		<div class="new-arrival-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="area-title title-top-border">
+							<h2>New Arrival</h2>
+						</div>
+					</div>
+				</div>
+				<div class="new-arrival">
+					<div class="row">
+						<div class="col-lg-2 d-none d-lg-block">
+							<div class="product-banner banner-3 single-product">
+								<a class="banner-photo" href=""><img src="imgg/longpic.jpg" alt="#" /></a>
+								<h4> <br> </h4>
+								<a href="" class="shop-now">Shop Now</a>
+							</div>
+						</div>
+						<div class="col-lg-10">
+							<div class="active-arrival-carousel navigation-top">
+								<div class="sin-items">
+									<div class="row">
+										<div class="col-md-5 arrival-1">
+											<!-- Single-Product Start -->
+											<div class="single-product">
+												<div class="product-img">
+													<div class="label-new">
+														<span class="new">New</span>
+													</div>
+													<a class="pro-image"  onclick="showPAYMENT();">
+														<img class="primary-image" src="imgg/white-16-ct-diamond-18kt-gold-bracelet.jpg"
+															alt="#">
+														<img class="secondary-image" src="imgg/white-16-ct-diamond-18kt-gold-bracelet-second.jpg"
+															alt="#">
+													</a>
+													<div class="pro-actions">
+														<a class="action-btn action-btn-1" ><i
+																class="pe-7s-cart"></i><span>
+																	$300.00
+																</span></a>
+														<a class="action-btn" 
+															data-bs-toggle="tooltip"
+															data-original-title="Add to Wishlist"><i
+																class="pe-7s-like"></i></a>
+														<a class="action-btn" href="" data-bs-toggle="tooltip"
+															data-original-title="Compare"><i
+																class="pe-7s-repeat"></i></a>
+													</div>
+													<div class="pro-name-price" style="background-color: rgb(20, 20, 20); width: 100%; text-align: center; padding: 4px;">
+														<span>White 16 Ct Diamond 18kt Gold Bracelet</span>
+													</div>
+												</div>
+											</div>
+											<!-- Single-Product End -->
+										</div>
+										<div class="col-md-7  arrival-2">
+											<div class="row">
+												<!-- Single-Product Start -->
+												<div class="col-md-6">
+													<div class="single-product">
+														<div class="product-img">
+															<div class="label-parcent">
+																<span class="parcent">Sale</span>
+															</div>
+															<a class="pro-image"  onclick="showPAYMENT();">
+																<img class="primary-image"
+																	src="imgg/emerald-carving-center-diamond-rose-cut-22-karat-yellow-gold-ring.jpg" alt="#">
+																<img class="secondary-image"
+																	src="imgg/emerald-carving-center-diamond-rose-cut-22-karat-yellow-gold-ring-second.jpg" alt="#">
+															</a>
+															<div class="pro-actions">
+																<a class="action-btn action-btn-1" ><i
+																		class="pe-7s-cart"></i><span>$15,012.80</span></a>
+															</div>
+															<div class="pro-name-price" style="background-color: rgb(20, 20, 20); width: 100%; text-align: center; padding: 4px;">
+																<span>Emerald Carving Center Diamond Rose Cut 22 Karat Yellow Gold Ring</span>
+															</div>
+														</div>
+													</div>
+													<div class="single-product">
+														<div class="product-img">
+															<a class="pro-image"  onclick="showPAYMENT();">
+																<img class="primary-image"
+																	src="imgg/yellow-gold-italian-diamond-in-18kt-ring.jpg" alt="#">
+																<img class="secondary-image"
+																	src="imgg/yellow-gold-italian-diamond-in-18kt-ring-second.jpg" alt="#">
+															</a>
+															<div class="pro-actions">
+																<a class="action-btn action-btn-1" ><i
+																		class="pe-7s-cart"></i><span>$14,775.00</span></a>
+															</div>
+															<div class="pro-name-price" style="background-color: rgb(20, 20, 20); width: 100%; text-align: center; padding: 4px;">
+																<span>Emerald Carving Center Diamond Rose Cut 22 Karat Yellow Gold Ring</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- Single-Product End -->
+												<!-- Single-Product Start -->
+												<div class="col-md-6">
+													<div class="single-product">
+														<div class="product-img">
+															<div class="label-parcent">
+																<span class="parcent">Sale</span>
+															</div>
+															<a class="pro-image"  onclick="showPAYMENT();">
+																<img class="primary-image"
+																	src="imgg/white-gold-14-kt-cushion-cut-aquamarine-cocktail.jpg" alt="#">
+																<img class="secondary-image"
+																	src="imgg/white-gold-14-kt-cushion-cut-aquamarine-cocktail-second.jpg" alt="#">
+															</a>
+															<div class="pro-actions">
+																<a class="action-btn action-btn-1" ><i
+																		class="pe-7s-cart"></i><span>
+																			$15,004.45
+																		</span></a>
+															</div>
+															<div class="pro-name-price" style="background-color: rgb(20, 20, 20); width: 100%; text-align: center; padding: 4px;">
+																<span>White Gold 14 Kt Cushion Cut Aquamarine Cocktail Ring</span>
+															</div>
+														</div>
+													</div>
+													<div class="single-product">
+														<div class="product-img">
+															<a class="pro-image"  onclick="showPAYMENT();">
+																<img class="primary-image"
+																	src="imgg/7-line-sapphire-beads-with-diamond-clasp-and-spacer-bracelet.jpg" alt="#">
+																<img class="secondary-image"
+																	src="imgg/7-line-sapphire-beads-with-diamond-clasp-and-spacer-bracelet-second.jpg" alt="#">
+															</a>
+															<div class="pro-actions">
+																<a class="action-btn action-btn-1"><i
+																		class="pe-7s-cart"></i><span>$15,012.80</span></a>
+															</div>
+															<div class="pro-name-price" style="background-color: rgb(20, 20, 20); width: 100%; text-align: center; padding: 4px;">
+																<span>7 Line Sapphire Beads with Diamond Clasp and Spacer Bracelet</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- Single-Product End -->
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="sin-items">
+									<div class="row">
+										<div class="col-md-5 arrival-1">
+											<!-- Single-Product Start -->
+											<div class="single-product">
+												<div class="product-img">
+													<div class="label-new">
+														<span class="new">Book</span>
+													</div>
+													<a class="pro-image"  onclick="showPAYMENT();">
+														<img class="primary-image" src="imgg/product1.jpg"
+															alt="#">
+														<img class="secondary-image" src="imgg/product1.jpg"
+															alt="#">
+													</a>
+													<div class="pro-name-price">
+														<h3><a href=""> 1. </a></h3>
+														<h4>Get Your Custom Made Jewelry</h4>
+													</div>
+												</div>
+											</div>
+											<!-- Single-Product End -->
+										</div>
+										<div class="col-md-7  arrival-2" >
+											<div class="row">
+												<!-- Single-Product Start -->
+												<div class="col-md-6" style="display: none;">
+													<div class="single-product">
+														<div class="product-img">
+															<div class="label-parcent">
+																<span class="parcent">Sale</span>
+															</div>
+															<a class="pro-image"  onclick="showPAYMENT();">
+																<img class="primary-image"
+																	src="img/product/arrival/2.jpg" alt="#">
+																<img class="secondary-image"
+																	src="img/product/arrival/3.jpg" alt="#">
+															</a>
+															<div class="pro-actions">
+																<a class="action-btn action-btn-1" ><i
+																		class="pe-7s-cart"></i><span>Add to
+																		Cart</span></a>
+																<a class="action-btn" 
+																	data-bs-toggle="tooltip"
+																	data-original-title="Add to Wishlist"><i
+																		class="pe-7s-like"></i></a>
+																<a class="action-btn" href="" data-bs-toggle="tooltip"
+																	data-original-title="Compare"><i
+																		class="pe-7s-repeat"></i></a>
+															</div>
+															<div class="pro-name-price">
+																<h3><a href="">back t-shirt</a></h3>
+																<h4>$55.00</h4>
+															</div>
+														</div>
+													</div>
+													<div class="single-product">
+														<div class="product-img">
+															<a class="pro-image"  onclick="showPAYMENT();">
+																<img class="primary-image"
+																	src="img/product/arrival/3.jpg" alt="#">
+																<img class="secondary-image"
+																	src="img/product/arrival/4.jpg" alt="#">
+															</a>
+															<div class="pro-actions">
+																<a class="action-btn action-btn-1" ><i
+																		class="pe-7s-cart"></i><span>Add to
+																		Cart</span></a>
+																<a class="action-btn" 
+																	data-bs-toggle="tooltip"
+																	data-original-title="Add to Wishlist"><i
+																		class="pe-7s-like"></i></a>
+																<a class="action-btn" href="" data-bs-toggle="tooltip"
+																	data-original-title="Compare"><i
+																		class="pe-7s-repeat"></i></a>
+															</div>
+															<div class="pro-name-price">
+																<h3><a href="">White t-shirt</a></h3>
+																<h4>$25.00</h4>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- Single-Product End -->
+												<!-- Single-Product Start -->
+												<div class="col-md-6" style="display: none;">
+													<div class="single-product">
+														<div class="product-img">
+															<div class="label-new">
+																<span class="new">New</span>
+															</div>
+															<div class="label-parcent">
+																<span class="parcent">-38%</span>
+															</div>
+															<a class="pro-image"  onclick="showPAYMENT();">
+																<img class="primary-image"
+																	src="img/product/arrival/5.jpg" alt="#">
+																<img class="secondary-image"
+																	src="img/product/arrival/2.jpg" alt="#">
+															</a>
+															<div class="pro-actions">
+																<a class="action-btn action-btn-1" ><i
+																		class="pe-7s-cart"></i><span>Add to
+																		Cart</span></a>
+																<a class="action-btn" 
+																	data-bs-toggle="tooltip"
+																	data-original-title="Add to Wishlist"><i
+																		class="pe-7s-like"></i></a>
+																<a class="action-btn" href="" data-bs-toggle="tooltip"
+																	data-original-title="Compare"><i
+																		class="pe-7s-repeat"></i></a>
+															</div>
+															<div class="pro-name-price">
+																<h3><a href="">Women's Dresses</a></h3>
+																<h4>$65.00</h4>
+															</div>
+														</div>
+													</div>
+													<div class="single-product">
+														<div class="product-img">
+															<a class="pro-image"  onclick="showPAYMENT();">
+																<img class="primary-image"
+																	src="img/product/arrival/4.jpg" alt="#">
+																<img class="secondary-image"
+																	src="img/product/arrival/5.jpg" alt="#">
+															</a>
+															<div class="pro-actions">
+																<a class="action-btn action-btn-1" ><i
+																		class="pe-7s-cart"></i><span>Add to
+																		Cart</span></a>
+																<a class="action-btn" 
+																	data-bs-toggle="tooltip"
+																	data-original-title="Add to Wishlist"><i
+																		class="pe-7s-like"></i></a>
+																<a class="action-btn" href="" data-bs-toggle="tooltip"
+																	data-original-title="Compare"><i
+																		class="pe-7s-repeat"></i></a>
+															</div>
+															<div class="pro-name-price">
+																<h3><a href="">back t-shirt</a></h3>
+																<h4>$25.00</h4>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- Single-Product End -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- NEW-ARRIVAL-AREA END -->
+
+		<!-- TESTIMONIALS-AREA START -->
+		<div class="testimonials-area">
+			<div class="testimonials">
+				<div class="container">
+					<div class="row">
+						<div class="active-testimonial-carousel navigation-bottom">
+							<div class="col-lg-12">
+								<div class="single-testimonial">
+									<h2>Robert Miller</h2>
+									<h3>(Ocoee, FL)</h3>
+									<p>
+										It is nice to know that your company takes the time 
+										to get to know their customers.  I am very pleased 
+										with my purchases and wish that I would of found 
+										you earlier!  I have a small online shop on Etsy 
+										but have been making jewelry for 10+ years now.  
+										I will definitely order many times in the future 
+										and will pass your name on to my fellow artisans s
+										o they may also go shopping, too!
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="single-testimonial">
+									<h2>Robert Miller</h2>
+									<h3>Michelle D. (Provincetown, MA)</h3>
+									<p>
+										Your customer service is outstanding, your packaging is beautiful 
+										and the products I have received so far are wonderful - great quality!  
+										Your catalog is fabulous.  I usually hate getting catalogs but yours will 
+										be staying with me and used often - it's pretty enough to leave on my coffee 
+										table!  But what I find most appealing is that your prices are better than most 
+										other options out there on almost every product!
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- TESTIMONIALS-AREA END -->
+
+		<!-- BLOG-POST-AREA START -->
+		<div class="blog-post-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="area-title  title-top-border">
+							<h2>OUR TEAM</h2>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="cols2">
+						<div class="imgofperson">
+							<img src="imgg/sherry.jpg" alt="" />
+						</div>
+						<div class="contentofperson">
+							<h3>
+								<a href="" style="color: #32c4d1;">Roberto DeLuca</a>
+							</h3>
+							<p>
+								Roberto continues to create pieces using 14K gold handset with diamonds, precious stones, and enamel. Undertstated and simple, yet glamorous RJC offers a beautiful balance between relevant trends and timeless design. Pushing boundaries and expanding the offering, Roberto lunched his Bridal Collection in Spring 2019, following the death of his late wife and Co-partner, Lisa Strauss, who died in 2019. All while staying true to the brand's DNA of approachable and affordable fine jewelry.
+							</p>
+							<br>	
+							<p style="display: none;">
+								In 2012, Roberto began selling his pieces local hair salon in the Australia, where he continued selling for the next 3 years. During this time, Roberto steadily built up Direct to Consumer Clientele, began utilizing his role in Charity Driven platform, and made the entree into wholesale, with Shopbop.com. By 2014, RJC secured it's first luxury department store partner - Bergdorf Goodman, forever changing the landscape of and introducing fine jewelry on the 5th Floor (5F).
+							</p>
+						</div>
+					</div>
+
+					<div class="cols2">
+						<div class="imgofperson">
+							<img src="imgg/amanda.jpg" alt="" />
+						</div>
+						<div class="contentofperson">
+							<h3>
+								<a href="" style="color: #32c4d1;">Vanessa Gavi</a>
+							</h3>
+							<p>
+								Vanessa makes it all from scratch - design to final polish. She can reuse 
+								your gold and gems to make a new piece of art if you have a heirloom, 
+								sentimental or other jewelry, or can create a brand new jewelry that 
+								will match your likes and imagination. She will be working with you 
+								closely by sharing the progress of making of your jewelry from 3 CAD 
+								design to gems and final look. 
+							</p>
+						</div>
+					</div>
+
+					<div class="cols2">
+						<div class="imgofperson">
+							<img src="imgg/w1.jpg" alt="" />
+						</div>
+						<div class="contentofperson">
+							<h3>
+								<a href="" style="color: #32c4d1;">Michael Douglas</a>
+							</h3>
+							<p>
+								Michael specialize in handling various administrative tasks for 
+								prominent retail jewelry corporations, jewelers, and jewelry 
+								designers. 
+								His responsibilities encompass a range of vital activities, 
+								including supply management, comprehensive market research, 
+								and efficient 
+								phone communication.
+							</p>
+						</div>
+					</div>
+
+					<div class="cols2">
+						<div class="imgofperson">
+							<img src="imgg/sherryy.jpg" alt="" />
+						</div>
+						<div class="contentofperson">
+							<h3>
+								<a href="" style="color: #32c4d1;">Aurora DeLuca</a>
+							</h3>
+							<p>
+								Aurora possesses remarkable talent and expertise, meticulously handcrafting each element of your jewelry, starting from the initial 
+								design phase and culminating in the impeccable final polish. With a keen eye for detail, she has the ability to repurpose your cherished 
+								gold and gems, breathing new life into heirlooms, sentimental pieces, or other jewelry items.
+							</p>
+						</div>
+					</div>
+
+					
+
+					
+				</div>
+				<div class="row hide">
+					<div class="active-blog-post  navigation-top">
+						<!-- Blog-Post-Inner Start -->
+						<div class="blog-item">
+							<div class="blog-post-inner">
+								<div class="post-thumbnail">
+									<a>
+										<img src="imgg/sherry.jpg" alt="" />
+										<span class="moretag"></span>
+									</a>
+								</div>
+								<div class="blog-brief" style="margin-top: 0px;">
+									<h3>
+										<a href="" style="color: #32c4d1;">Roberto DeLuca</a>
+										<a class="jeweler_email" href="" style="display: block;"><a  style="font-size: 10px; color: black;" href="" class="blue-text"></a></a>
+									</h3>
+									<p>
+										<br>
+										Roberto continues to create pieces using 14K gold handset with diamonds, precious stones, and enamel. Undertstated and simple, yet glamorous RJC offers a beautiful balance between relevant trends and timeless design. Pushing boundaries and expanding the offering, Roberto lunched his Bridal Collection in Spring 2019, following the death of his late wife and Co-partner, Lisa Strauss, who died in 2019. All while staying true to the brand's DNA of approachable and affordable fine jewelry.
+									</p>
+									<br>	
+									<p style="display: none;">
+										In 2012, Roberto began selling his pieces local hair salon in the Australia, where he continued selling for the next 3 years. During this time, Roberto steadily built up Direct to Consumer Clientele, began utilizing his role in Charity Driven platform, and made the entree into wholesale, with Shopbop.com. By 2014, RJC secured it's first luxury department store partner - Bergdorf Goodman, forever changing the landscape of and introducing fine jewelry on the 5th Floor (5F).
+									</p>
+									<br><br>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="blog-item">
+							<div class="blog-post-inner">
+								<div class="post-thumbnail">
+									<a>
+										<img src="imgg/amanda.jpg" alt="" />
+										<span class="moretag"></span>
+									</a>
+								</div>
+								<div class="blog-brief" style="margin-top: 0px;">
+									<h3><a href="" style="color: #32c4d1;">Vanessa Gavi</a>
+										<a class="jeweler_email" href="" style="display: block;"><a  style="font-size: 10px; color: black;" href="" class="blue-text"></a></a>
+									</h3>
+									<p>
+										<br>
+										Vanessa makes it all from scratch - design to final polish. She can reuse 
+										your gold and gems to make a new piece of art if you have a heirloom, 
+										sentimental or other jewelry, or can create a brand new jewelry that 
+										will match your likes and imagination. She will be working with you 
+										closely by sharing the progress of making of your jewelry from 3 CAD 
+										design to gems and final look. 
+									</p>
+									<br>
+								</div>
+							</div>
+						</div>
+
+						
+					</div>
+				</div>
+
+				<div class="row hide">
+					<div class="active-blog-post  navigation-top">
+						<!-- Blog-Post-Inner Start -->
+						<div class="blog-item">
+							<div class="blog-post-inner">
+								<div class="post-thumbnail">
+									<a>
+										<img src="imgg/w1.jpg" alt="" />
+										<span class="moretag"></span>
+									</a>
+								</div>
+								<div class="blog-brief" style="margin-top: 0px;">
+									<h3>
+										<a href="" style="color: #32c4d1;">Linda Yen</a>
+										<a class="jeweler_email" href="" style="display: block;"><a  style="font-size: 10px; color: black;" href="" class="blue-text"></a></a>
+									</h3>
+									<p>
+										<br>
+										Linda specialize in handling various administrative tasks for prominent retail jewelry corporations, jewelers, and jewelry designers. 
+										Her responsibilities encompass a range of vital activities, including supply management, comprehensive market research, and efficient 
+										phone communication.
+									</p>
+									<br>	
+								</div>
+							</div>
+						</div>
+
+						<!-- Blog-Post-Inner Start -->
+						<div class="blog-item">
+							<div class="blog-post-inner">
+								<div class="post-thumbnail">
+									<a>
+										<img src="imgg/sherryy.jpg" alt="" />
+										<span class="moretag"></span>
+									</a>
+								</div>
+								<div class="blog-brief" style="margin-top: 0px;">
+									<h3>
+										<a href="" style="color: #32c4d1;">Aurora DeLuca</a>
+										<a class="jeweler_email" href="" style="display: block;"><a  style="font-size: 10px; color: black;" href="" class="blue-text"></a></a>
+									</h3>
+									<p>
+										Aurora possesses remarkable talent and expertise, meticulously handcrafting each element of your jewelry, starting from the initial 
+										design phase and culminating in the impeccable final polish. With a keen eye for detail, she has the ability to repurpose your cherished 
+										gold and gems, breathing new life into heirlooms, sentimental pieces, or other jewelry items. 
+									</p>
+									<br><br>
+								</div>
+							</div>
+						</div>
+
+						
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="active-blog-post  navigation-top">
+						
+
+						<!-- insert new personnel here -->
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- BLOG-POST-AREA END -->
+
+		<!-- BRANDS-LOGO-AREA START -->
+		<div class="brands-logo-area" style="display: none;">
+			<div class="container">
+				<div class="row">
+					<div class="active-brands-logo">
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/1.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/2.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/3.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/4.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/5.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/6.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/1.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/2.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/3.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/4.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/5.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+						<!-- Single-Brand-Logo Start -->
+						<div class="brand-item">
+							<div class="single-brand-logo">
+								<img src="img/brand/6.png" alt="" />
+							</div>
+						</div>
+						<!-- Single-Brand-Logo End -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- BRANDS-LOGO-AREA END -->
+	</section>
+	<!-- FOOTER-AREA START -->
+	<footer class="footer-area">
+		<!-- Footer-Top-Area Start -->
+		<div class="footer-top-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="footer-top">
+							<div class="footer-logo">
+								<img src="imgg/logo.png" alt="" />
+							</div>
+							<p style="display: none;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book.</p>
+							<div class="social-media">
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer-Top-Area End -->
+		<!-- Footer-Middle-Area Start -->
+		<div class="footer-middle-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-3 col-lg-4 col-md-4">
+						<div class="single-footer footer-about">
+							<h4 class="widget-title title-top-border">Contact us</h4>
+							<ul>
+								<li>
+									<i class="pe-7s-map-marker"></i>
+									<span>
+										1783 W Court St A, 
+									</span><br>
+									<span>  Pasco, WA </span>
+								</li>
+								<li>
+									<i class="pe-7s-call"></i>
+									<span>(+1) 917 580 3503</span><br>
+									<span> </span>
+
+								</li>
+								<li>
+									<i class="pe-7s-mail-open"></i>
+									<span style="font-size: 15px;">roberto@robertojewelrycollection.com</span><br>
+									<span> </span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-2 d-none d-xl-block">
+						<div class="single-footer footer-menu">
+							<h4 class="widget-title title-top-border">our offers</h4>
+							<nav>
+								<ul>
+									<li><a href="">Necklace</a></li>
+									<li><a href="">Earrings</a></li>
+									<li><a href="">Ring</a></li>
+									<li><a href="">New Products</a></li>
+									<li><a href="">Suppliers</a></li>
+									<li><a href="">Delivery & Returns</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-4 col-md-4" style="visibility: hidden;">
+						<div class="single-footer footer-menu">
+							<h4 class="widget-title title-top-border">my account</h4>
+							<nav>
+								<ul>
+									<li><a href="">My Account</a></li>
+									<li><a href="">Office Information</a></li>
+									<li><a href="">Address</a></li>
+									<li><a href="">Discount</a></li>
+									<li><a href="">Order History</a></li>
+									<li><a href="">My Credit Slip</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="col-xl-2 d-none d-xl-block" style="visibility:hidden;">
+						<div class="single-footer instagram">
+							<h4 class="widget-title title-top-border">instagram</h4>
+							<div class="instagram-thumb">
+								<a href=""><img src="img/instagram/1.jpg" alt="" /></a>
+								<a href=""><img src="img/instagram/2.jpg" alt="" /></a>
+								<a href=""><img src="img/instagram/3.jpg" alt="" /></a>
+								<a href=""><img src="img/instagram/4.jpg" alt="" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-4">
+						<div class="single-footer newslatter">
+							<h4 class="widget-title title-top-border">newslatter</h4>
+							<p>Subscribe to our Newsletter to keep updated on all new products.</p>
+							<form action="#">
+								<input type="text" name="email" placeholder="Enter your email..." />
+								<input type="submit" value="Subscribe" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer-Middle-Area End -->
+		<!-- Copyright-Area Start -->
+		<div class="copyright-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-7">
+						<div class="copyright">
+							<p>2025 Copyright &copy; <a 
+									target="_blank"><b> Roberto Jewelry Collection </b></a> All rights reserved.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-5">
+						<div class="payment">
+							<a href=""><i class="fa fa-cc-paypal"></i></a>
+							<a href=""><i class="fa fa-cc-visa"></i></a>
+							<a href=""><i class="fa fa-cc-mastercard"></i></a>
+							<a href=""><i class="fa fa-cc-stripe"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Copyright-Area End -->
+	</footer>  
+	<!-- FOOTER-AREA END -->
+
+	<!-- QUICKVIEW PRODUCT -->
+	<div id="quickview-wrapper">
+		<!-- Modal -->
+		<div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body">
+						<div class="modal-product">
+							<div class="product-images">
+								<div class="main-image images">
+									<img alt="#" src="img/product/quickview-photo.jpg" />
+								</div>
+							</div><!-- .product-images -->
+
+							<div class="product-info">
+								<h1>Aenean eu tristique</h1>
+								<div class="price-box-3">
+									<hr />
+									<div class="s-price-box">
+										<span class="new-price">$160.00</span>
+										<span class="old-price">$190.00</span>
+									</div>
+									<hr />
+								</div>
+								<a class="see-all">See all features</a>
+								<div class="quick-add-to-cart">
+									<form method="post" class="cart">
+										<div class="numbers-row">
+											<input type="number" id="french-hens" value="3">
+										</div>
+										<button class="single_add_to_cart_button" type="submit">Add to cart</button>
+									</form>
+								</div>
+								<div class="quick-desc">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est
+									tristique auctor. Donec non est at libero.
+								</div>
+								<div class="social-sharing">
+									<div class="widget widget_socialsharing_widget">
+										<h3 class="widget-title-modal">Share this product</h3>
+										<ul class="social-icons">
+											<li><a target="_blank" title="Facebook" href=""
+													class="facebook social-icon"><i class="fa fa-facebook"></i></a></li>
+											<li><a target="_blank" title="Twitter" href=""
+													class="twitter social-icon"><i class="fa fa-twitter"></i></a></li>
+											<li><a target="_blank" title="Pinterest" href=""
+													class="pinterest social-icon"><i class="fa fa-pinterest"></i></a>
+											</li>
+											<li><a target="_blank" title="Google +" href=""
+													class="gplus social-icon"><i class="fa fa-google-plus"></i></a></li>
+											<li><a target="_blank" title="LinkedIn" href=""
+													class="linkedin social-icon"><i class="fa fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div><!-- .product-info -->
+						</div><!-- .modal-product -->
+					</div><!-- .modal-body -->
+				</div><!-- .modal-content -->
+			</div><!-- .modal-dialog -->
+		</div>
+		<!-- END Modal -->
+	</div>
+	<!-- END QUICKVIEW PRODUCT -->
+
+	<!-- all js here -->
+	<!-- jquery latest version -->
+	<script src="js/vendor/jquery-3.6.0.min.js"></script>
+	<script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<!-- Nivo slider js -->
+	<script src="lib/js/jquery.nivo.slider.js"></script>
+	<!-- owl.carousel js -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- jquery-ui js -->
+	<script src="js/jquery-ui.min.js"></script>
+	<!-- countdon.min js -->
+	<script src="js/countdon.min.js"></script>
+	<!-- jquery.meanmenu js -->
+	<script src="js/jquery.meanmenu.js"></script>
+	<!-- Simple Lence JS -->
+	<script src="js/jquery.simpleLens.min.js"></script>
+	<!-- wow js -->
+	<script src="js/wow.min.js"></script>
+	<!-- plugins js -->
+	<script src="js/plugins.js"></script>
+	<!-- main js -->
+	<script src="js/main.js"></script>
+	<!-- main js -->
+	<script src="MINE.js"></script>
+
+</body>
+
+</html>
