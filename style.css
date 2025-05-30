@@ -3230,33 +3230,46 @@ h3.widget-title-modal {
 .custom-submit:focus {color: #fff;}
 
 
-
-
-
-
-
-
-
-/* my edits */
-.imgofperson{
-  background-color: #eaeaea;
-  margin-bottom: 25px;
+.imgofperson {
+    background-color: #eaeaea;
+    margin-bottom: 25px;
 }
-.imgofperson img{
-  width: 100%;
-  padding: 6px;
-  margin-top: 3px;
+
+
+.members{
+  /* border: 1px solid red; */
+  max-width: 1142px;
+  margin: auto;
+  padding-top: 20px;
+  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-bottom: 20px;
 }
-.cols2{
-  width: 98%;
-  margin-bottom: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.member-card{
+  width: 390px;
+  min-width: 49%;
+  /* border: 1px solid green; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  float: left;
+  margin-right: 3px;
+  height: 750px;
+  margin-top: 10px;
   border-radius: 6px;
 }
+.member-card img{
+  width: 100%;
+  display: block;
+}
+.member-card p, .member-card h3{
+  width: 98%;
+  margin: auto;
+}
 
-@media screen and (min-width: 780px) 
-and (max-width: 999999999999px){
-  .cols2{
-    width: 48%;
+@media screen and (max-width: 825px) 
+and (min-width: 0px){
+  .member-card{
+    width: 98%;
+    height: auto;
   }
 }
